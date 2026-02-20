@@ -4,7 +4,7 @@ import { User, Admin, Cart, FoodItem, Orders, Restaurant } from './Schema.js';
 const verifyCleanState = async () => {
     try {
         await mongoose.connect(
-            'mongodb+srv://campusUser:MySecurepass123@team2.0faokyb.mongodb.net/foodDB'
+            'mongodb+srv://xxxxxxxxxx'
         );
 
         console.log("MongoDB Atlas Connected ✅");
